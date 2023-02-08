@@ -23,7 +23,7 @@
 version: "3"
 
 env:
-  K6_VERSION: v0.32.0
+  K6_VERSION: v0.42.0
 
 silent: true
 
@@ -43,7 +43,7 @@ tasks:
     generates:
       - k6
     cmds:
-      - xk6 build --with github.com/szkiba/xk6-prometheus=$(pwd)
+      - xk6 build --with github.com/meshnek/my-xk6-prometheus=$(pwd)
 
   test:
     deps: [build]
