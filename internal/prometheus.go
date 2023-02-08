@@ -29,7 +29,7 @@ import (
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/client_golang/prometheus/promhttp"
 	"github.com/sirupsen/logrus"
-	"go.k6.io/k6/stats"
+	"github.com/grafana/k6@latest"
 )
 
 type PrometheusAdapter struct {
